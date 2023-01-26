@@ -19,11 +19,11 @@ def translate(word):
         if decide == "y":
             return data[get_close_matches(word, data.keys())[0]]
         elif decide == "n":
-            return ("u entered the wrong keys ")
+            return ("You entered the wrong keys ")
         else:
             return ("You have entered wrong input please enter just y or n")
     else:
-        print("u entered the wrong keys")
+        print("You entered the wrong keys")
 
 
 word = input("Enter the word you want to search : ")
